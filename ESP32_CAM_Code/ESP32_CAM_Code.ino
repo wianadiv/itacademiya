@@ -19,7 +19,7 @@
 #include "esp_camera.h"
 const char* ssid = "YOUR_WIFI";
 const char* password = "YOUR_PASSWORD";
-const char* serverUrl = "http://192.168.0.4:5000/upload";
+const char* serverUrl = "http://84.252.75.99:5000/upload";
 const uint32_t intervalMinutes = 10;
 void setup() {
   Serial.begin(115200);
